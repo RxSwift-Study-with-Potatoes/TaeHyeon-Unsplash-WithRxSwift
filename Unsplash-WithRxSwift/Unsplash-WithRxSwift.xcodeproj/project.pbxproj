@@ -56,7 +56,6 @@
 				F1DE6D184DDDF22ABAA61FFF /* Pods-Unsplash-WithRxSwift.debug.xcconfig */,
 				B9866AD2817E93F934EEC035 /* Pods-Unsplash-WithRxSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -66,6 +65,14 @@
 				18D53AB24EA7C38BD1585A2E /* Pods_Unsplash_WithRxSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD60EE77271D9FFC0051AF67 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BDFBB35527158DC700271907 /* Extensions */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		BDFBB33027158D4500271907 = {
@@ -90,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				BDFBB35B2715D9E300271907 /* App */,
-				BDFBB35527158DC700271907 /* Extensions */,
+				BD60EE77271D9FFC0051AF67 /* Utils */,
 				BDFBB35627158DCB00271907 /* Views */,
 				BDFBB35D2715DA2100271907 /* Models */,
 				BDFBB35E2715DA2B00271907 /* ViewModels */,

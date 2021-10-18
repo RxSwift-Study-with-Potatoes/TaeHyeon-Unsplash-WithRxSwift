@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		90E2D003F929047D7EA439CC /* Pods_Unsplash_WithRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D53AB24EA7C38BD1585A2E /* Pods_Unsplash_WithRxSwift.framework */; };
+		BD60EE7A271DA0C90051AF67 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60EE79271DA0C90051AF67 /* Image.swift */; };
 		BDFBB33D27158D4500271907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB33C27158D4500271907 /* AppDelegate.swift */; };
 		BDFBB33F27158D4500271907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB33E27158D4500271907 /* SceneDelegate.swift */; };
 		BDFBB34627158D4700271907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFBB34527158D4700271907 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		18D53AB24EA7C38BD1585A2E /* Pods_Unsplash_WithRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unsplash_WithRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9866AD2817E93F934EEC035 /* Pods-Unsplash-WithRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash-WithRxSwift.release.xcconfig"; path = "Target Support Files/Pods-Unsplash-WithRxSwift/Pods-Unsplash-WithRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		BD60EE79271DA0C90051AF67 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		BDFBB33927158D4500271907 /* Unsplash-WithRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unsplash-WithRxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFBB33C27158D4500271907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDFBB33E27158D4500271907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,9 +72,18 @@
 		BD60EE77271D9FFC0051AF67 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BD60EE78271DA03D0051AF67 /* Constants */,
 				BDFBB35527158DC700271907 /* Extensions */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		BD60EE78271DA03D0051AF67 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BD60EE79271DA0C90051AF67 /* Image.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		BDFBB33027158D4500271907 = {
@@ -299,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDFBB35A2715D8FC00271907 /* MainViewController.swift in Sources */,
+				BD60EE7A271DA0C90051AF67 /* Image.swift in Sources */,
 				BDFBB3632715DA6C00271907 /* ViewEmpty.swift in Sources */,
 				BDFBB33D27158D4500271907 /* AppDelegate.swift in Sources */,
 				BDFBB33F27158D4500271907 /* SceneDelegate.swift in Sources */,

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "tabbarIcon_image.png",
+      "filename" : "tabbarIcon_plus_light_fill.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "tabbarIcon_image@2x.png",
+      "filename" : "tabbarIcon_plus_light_fill@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "tabbarIcon_image@3x.png",
+      "filename" : "tabbarIcon_plus_light_fill@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

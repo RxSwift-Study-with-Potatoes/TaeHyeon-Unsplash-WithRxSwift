@@ -13,6 +13,7 @@
 		BD60EE7E271DA3F10051AF67 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60EE7D271DA3F10051AF67 /* UploadViewController.swift */; };
 		BD60EE80271DA4000051AF67 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60EE7F271DA4000051AF67 /* ProfileViewController.swift */; };
 		BD60EE82271DA46D0051AF67 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60EE81271DA46D0051AF67 /* BaseTabBarController.swift */; };
+		BD683639271DB7C800C24BB6 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD683638271DB7C800C24BB6 /* MainViewController.storyboard */; };
 		BDFBB33D27158D4500271907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB33C27158D4500271907 /* AppDelegate.swift */; };
 		BDFBB33F27158D4500271907 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB33E27158D4500271907 /* SceneDelegate.swift */; };
 		BDFBB34627158D4700271907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFBB34527158D4700271907 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		BD60EE7D271DA3F10051AF67 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		BD60EE7F271DA4000051AF67 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BD60EE81271DA46D0051AF67 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		BD683638271DB7C800C24BB6 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
 		BDFBB33927158D4500271907 /* Unsplash-WithRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unsplash-WithRxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDFBB33C27158D4500271907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDFBB33E27158D4500271907 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				BDFBB34727158D4700271907 /* LaunchScreen.storyboard */,
+				BD683638271DB7C800C24BB6 /* MainViewController.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDFBB34927158D4700271907 /* LaunchScreen.storyboard in Resources */,
+				BD683639271DB7C800C24BB6 /* MainViewController.storyboard in Resources */,
 				BDFBB34627158D4700271907 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
